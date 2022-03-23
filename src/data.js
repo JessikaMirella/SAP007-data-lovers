@@ -6,33 +6,58 @@ export const filmesDiretores = (filmes, directorSelect) => {
   });
 };
 
+export const porcMoviesDirector = (movies, directorSelect) => {
+  const total = Number(movies.films.length);
+  const totalFiltred = Number(directorSelect.length);
 
-/*directorsSelect.addEventListener("change", (event) => {
-
-  const filterMoviesByDirectors = data.films.filter((directorName) => {
-    return directorName.director === event.target.value
-  })
-
-  console.log(filterMoviesByDirectors)
-})
+  return Number(totalFiltred / total * 100).toFixed(2)
+}
 
 
+export const moviesByScore = (data, selectedRate) => {
+  const moviesScores = data.films
+  if (selectedRate === "lower") {
+    return moviesScores.sort((a, b) => Number(a.rt_score) > Number(b.rt_score) ? 1 : -1);
+  } else {
+    return moviesScores.sort((a, b) => Number(a.rt_score) > Number(b.rt_score) ? -1 : 1);
+  }
+};
 
-/* Ordenar de A-Z "pronto"
-export const sortMoviesByTitle = (title) => {
-  return title.sort((a, b) => {
+export const sortMoviesByyear = (data, orderSelect) => {
+  const moviesByyear = data.films
 
-    const titleA = a.title.toUpperCase();
-    const titleB = b.title.toUpperCase();
+  if (orderSelect === "oldest") {
+    return moviesByyear.sort((a, b) => Number(a.release_date) > Number(b.release_date) ? 1 : -1);
+  }
 
-    if (titleA > titleB) {
-      return 1;
-    }
-    if (titleA < titleB) {
-      return -1
-    }
-  });
-};*/
+  else {
+    return moviesByyear.sort((a, b) => Number(a.release_date) > Number(b.release_date) ? -1 : 1);
+
+  };
+
+};
+
+export const sortMoviesAz = (data, orderSelect) => {
+  const moviesAz = data.films
+
+  if (orderSelect === "filmsAz") {
+
+    return moviesAz.sort((a,b) => a.title > b.title ? 1: -1);
+  }
+  else {
+
+    return moviesAz.sort((a,b) => a.title > b.title ? -1: 1);
+
+  };
+
+};
+
+
+
+
+
+
+
 
 
 
