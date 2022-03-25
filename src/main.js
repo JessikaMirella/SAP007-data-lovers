@@ -1,3 +1,4 @@
+
 import { filmesDiretores, moviesByScore, sortMoviesByyear, porcMoviesDirector, sortMoviesAz } from './data.js';
 import data from './data/ghibli/ghibli.js';
 
@@ -41,7 +42,7 @@ directorsButton.addEventListener("change", () => {
   printar(filtroDiretor)
 
   document.querySelector(".curiosity").innerHTML = `A porcentagem de filmes dirigidos por ${directorSelect} é de ${(porcMoviesDirector(data, filtroDiretor))}%`
-})
+});
 
 const scoreButton = document.getElementById("score");
 
@@ -62,6 +63,9 @@ sortOrder.addEventListener("change", (event) => {
   const orderYear = sortMoviesByyear(data, selectedSort);
   printar(orderYear);
 });
+
+
+
 
 const sortOrderAz = document.getElementById("films");
 
