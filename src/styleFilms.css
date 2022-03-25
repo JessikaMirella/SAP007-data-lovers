@@ -24,7 +24,7 @@ header {
 
 .films, .director, .year, .score {
   margin-top: 3%;
-  border: 3px solid blue;
+  border: 3px double #48CAE4;
   border-radius: 10px;
   width: auto;
   height: 40px;
@@ -36,13 +36,19 @@ header {
 }
 
 .cards {
+  margin: 1%;
   text-align: left;
 
 }
 
 
 .infos {
+  background-color: white;
+  box-shadow: 10px 10px 0 0 whitesmoke,
+    20px 20px 0 0 cornsilk,
+    30px 30px 0 0 wheat;
   margin-left: 20%;
+  margin-right: 2%;
   margin-top: -20%;
 
 }
