@@ -10,10 +10,12 @@ function printar(infos) {
 
   document.getElementById("cards").innerHTML = infos.map((cards) =>
     `
-     <div class = "cards">
+    <div class = "flex-conteiner cards">
+      <div class = "flex-itens poster">
         <h1>  ${cards.title}</h1>
         <img src = " ${cards.poster}" >
-        <div class = "infos">
+      </div>
+      <div class = "flex-itens infos">
         <p> <b>Description</b> </P>
         <p>  ${cards.description}</p>
         <p> <b>Director</b> ${cards.director}</p>
@@ -56,16 +58,16 @@ scoreButton.addEventListener("change", () => {
 const sortOrder = document.getElementById("year");
 
 sortOrder.addEventListener("change", (event) => {
-    const selectedSort = event.target.value;
-    const orderYear = sortMoviesByyear(data, selectedSort);
-    printar(orderYear);
+  const selectedSort = event.target.value;
+  const orderYear = sortMoviesByyear(data, selectedSort);
+  printar(orderYear);
 });
 
 const sortOrderAz = document.getElementById("films");
 
 sortOrderAz.addEventListener("change", (event) => {
-    const selectedSort = event.target.value;
-    const filterAz = sortMoviesAz(data, selectedSort);
-    printar(filterAz);
+  const selectedSort = event.target.value;
+  const filterAz = sortMoviesAz(data, selectedSort);
+  printar(filterAz);
 })
 
