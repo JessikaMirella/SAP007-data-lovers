@@ -36,14 +36,15 @@ header {
   flex-wrap: wrap;
 }
 
-.cards{
-  align-content: space-between;
+.cards {
+  position: relative;
+  align-content: flex-start;
 }
 
 .poster {
   padding: 1%;
   border: 5px double #0fa7c5;
-border-radius: 5px;
+  border-radius: 5px;
   background-color: #0fa7c5;
   box-shadow: 5px 0 5px 0 #0fa7c5c9,
     7px 0 7px 0 #0fa7c581,
@@ -51,14 +52,20 @@ border-radius: 5px;
 }
 
 .infos {
-margin-left: 20%;
-margin-top: -20%;
-border: 5px double #0fa7c5;
-border-radius: 5px;
+  align-items: stretch;
+  margin-left: 20%;
+  margin-top: -23%;
+  border: 5px double #0fa7c5;
+  border-radius: 5px;
   background-color: #0fa7c5;
   box-shadow: 5px 5px 0 0 #0fa7c5c9,
     7px 7px 0 0 #0fa7c581,
     9px 9px 0 0 #0fa7c53f;
+}
+
+.curiosity{
+padding: 3%;
+text-align: center;
 }
 
 .btnFilmes {
@@ -66,10 +73,24 @@ border-radius: 5px;
   font-size: 40px;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:500px) {
 
-  h1 {
+  body {
+    max-width: fit-content;
     font-size: 95%;
   }
 
+  .cards {
+    align-content: center;
+  }
+
+  .infos {
+    align-content: center;
+    align-items: stretch;
+    margin: 5%;
+  }
+
+  .poster{
+    align-content: center;
+  }
 }
