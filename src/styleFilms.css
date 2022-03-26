@@ -31,26 +31,34 @@ header {
 }
 
 .flex-conteiner {
+  padding: 1%;
   display: flex;
   flex-wrap: wrap;
 }
 
-.cards {
-  margin: 1%;
-  text-align: left;
-
+.cards{
+  align-content: space-between;
 }
 
+.poster {
+  padding: 1%;
+  border: 5px double #0fa7c5;
+border-radius: 5px;
+  background-color: #0fa7c5;
+  box-shadow: 5px 0 5px 0 #0fa7c5c9,
+    7px 0 7px 0 #0fa7c581,
+    9px 0 9px 0 #0fa7c53f;
+}
 
 .infos {
-  background-color: white;
-  box-shadow: 10px 10px 0 0 whitesmoke,
-    20px 20px 0 0 cornsilk,
-    30px 30px 0 0 wheat;
-  margin-left: 20%;
-  margin-right: 2%;
-  margin-top: -20%;
-
+margin-left: 20%;
+margin-top: -20%;
+border: 5px double #0fa7c5;
+border-radius: 5px;
+  background-color: #0fa7c5;
+  box-shadow: 5px 5px 0 0 #0fa7c5c9,
+    7px 7px 0 0 #0fa7c581,
+    9px 9px 0 0 #0fa7c53f;
 }
 
 .btnFilmes {

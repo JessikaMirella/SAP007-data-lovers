@@ -13,10 +13,10 @@ function printar(infos) {
     `
     <div class = "flex-conteiner cards">
       <div class = "flex-itens poster">
-        <h1>  ${cards.title}</h1>
         <img src = " ${cards.poster}" >
-      </div>
-      <div class = "flex-itens infos">
+        </div>
+        <div class = "flex-itens infos">
+      <h1>  ${cards.title}</h1>
         <p> <b>Description</b> </P>
         <p>  ${cards.description}</p>
         <p> <b>Director</b> ${cards.director}</p>
