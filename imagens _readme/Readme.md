@@ -61,7 +61,7 @@ Tons de azul, seguindo a abertura do filme "My Neighbor Totoro", assim como a su
 
 ### Kiki:
 
-Personagem do estúdio, que nos forneceu inspiração para criar o serviço de busca. 
+Personagem do estúdio, que nos forneceu inspiração para criar o serviço de busca.
 
 <img src="kiki_sem fundo_certa.png" alt="kiki">
 
@@ -75,8 +75,7 @@ Link git hub
 
 ## Sobre as desenvolvedoras:
 
-Jéssika Mirella e Bruna de Paula, ambas estudantes da turma 007 da Laboratoria Brasil, com apenas 3 meses de experiência visam aproveitar
-ao máximo os objetivos de aprendizagem com o projeto proposto.
+Jéssika Mirella e Bruna de Paula, ambas estudantes da turma 007 da Laboratoria Brasil, com apenas 3 meses de experiência visam aproveitar ao máximo os objetivos de aprendizagem com o projeto proposto.
 
 <img src="brunajpg.jpg" alt="bruna">
 <img src="jess.jpg" alt="kiki">
