@@ -44,20 +44,21 @@ A partir da nossa pesquisa e da mesma fornecida, feita com usuários potenciais,
 O protótipo de baixa fidelidade contém, em especial, a ideia inicial da interface, com a distribuição dos elementos.
 
 ![prototipo_baixa](https://github.com/Brulibra/SAP007-data-lovers/blob/main/src/imagens%20_readme/prototipo_baixa.png)
-<img src="prototipo_baixa.jpeg" alt="desenho_simples">
-<img src="prototipo_baixa2.jpeg" alt="desenho_simples">
+![prototipo_baixa2](https://github.com/Brulibra/SAP007-data-lovers/blob/main/src/imagens%20_readme/prototipo_baixa2.png)
 
 
 ### A paleta de cores:
 
 Tons de azul, seguindo a abertura do filme "My Neighbor Totoro", assim como a sua logo, foi nossa inspiração principal.
 
-<img src="paleta_cores.png" alt="cores">
+![paleta_cores](https://github.com/Brulibra/SAP007-data-lovers/blob/main/src/imagens%20_readme/paleta_cores.png)
 
 
 ### Protótipo de alta fidelidade:
 
 Foi realizado a partir da ferramenta (até então nova para nós) Figma. Nesse primeiro protótipo, definimos as cores e a distribuição dos elementos da interface.
+
+![prototipo_alta](https://github.com/Brulibra/SAP007-data-lovers/blob/main/src/imagens%20_readme/desktop-origem.png)
 
 [Link do protótipo interativo no Figma](https://www.figma.com/proto/mJ83bN0NlQm2ldvusywL8V/data-lovers-prototype-Studio-Ghibli?embed_host=notion&kind=&node-id=1%3A2&page-id=0%3A1&scaling=scale-down-width&starting-point-node-id=1%3A2&viewport=241%2C48%2C0.06)
 
@@ -66,7 +67,7 @@ Foi realizado a partir da ferramenta (até então nova para nós) Figma. Nesse p
 
 Personagem do filme "Kiki's Delivery Service" que nos forneceu inspiração para criar o serviço de busca.
 
-<img src="kiki_sem fundo_certa.png" alt="kiki">
+![kiki_sem_fundo](https://github.com/Brulibra/SAP007-data-lovers/blob/main/src/imagens%20_readme/kiki_sem%20fundo_certa.png)
 
 
 ## A implementação:
@@ -80,11 +81,11 @@ Link git hub
 
 [Jéssika Mirella](https://github.com/JessikaMirella) e [Bruna de Paula](https://github.com/Brulibra), ambas estudantes da turma 007 da [Laboratoria Brasil](https://github.com/Laboratoria), com apenas 3 meses de experiência visam aproveitar ao máximo os objetivos de aprendizagem com o projeto proposto.
 
-<img src="jess.jpg" alt="kiki">
+![Jéssika_Mirella](https://github.com/Brulibra/SAP007-data-lovers/blob/main/src/imagens%20_readme/jess.png)
 
 Jéssika Mirella
 
-<img src="brunajpg.jpg" alt="bruna">
+![Bruna_de_Paula](https://github.com/Brulibra/SAP007-data-lovers/blob/main/src/imagens%20_readme/brunajpg.png)
 
 Bruna de Paula
 
