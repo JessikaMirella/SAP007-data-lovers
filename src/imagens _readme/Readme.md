@@ -43,7 +43,6 @@ A partir da nossa pesquisa e da mesma fornecida, feita com usuários potenciais,
 
 O protótipo de baixa fidelidade contém, em especial, a ideia inicial da interface, com a distribuição dos elementos.
 
-![prototipo_baixa](https://github.com/Brulibra/SAP007-data-lovers/blob/main/readme_imagens/prototipo_baixa.jpeg)
 <img src="imagens_readme/prototipo_baixa.jpeg" alt="desenho_simples">
 <img src="prototipo_baixa2.jpeg" alt="desenho_simples">
 
