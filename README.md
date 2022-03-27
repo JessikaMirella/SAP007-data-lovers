@@ -17,8 +17,8 @@ Para isso contamos com os "Serviços de buscas da Kiki", uma interface de busca 
 * [Os usuários e suas histórias...](#os-usuários-e-suas-histórias)
 * [Desenho de interface do usuário](#desenho-de-interface-do-usuário)
   * [Protótipo de baixa fidelidade](#protótipo-de-baixa-fidelidade)
-  * [Protótipo de alta fidelidade](#protótipo-de-alta-fidelidade)
   * [A paleta de cores](#a-paleta-de-cores)
+  * [Protótipo de alta fidelidade](#protótipo-de-alta-fidelidade)
   * [Kiki](#kiki)
 * [A implementação](#a-implementação)
 * [Sobre as desenvolvedoras](#sobre-as-desenvolvedoras)
@@ -47,11 +47,6 @@ O protótipo de baixa fidelidade contém, em especial, a ideia inicial da interf
 <img src="prototipo_baixa2.jpeg" alt="desenho_simples">
 
 
-### Protótipo de alta fidelidade:
-
-Foi realizado a partir da ferramenta (até então nova para nós) Figma. Nesse primeiro protótipo, definimos as cores e a distribuição dos elementos da interface.
-
-
 ### A paleta de cores:
 
 Tons de azul, seguindo a abertura do filme "My Neighbor Totoro", assim como a sua logo, foi nossa inspiração principal.
@@ -59,9 +54,16 @@ Tons de azul, seguindo a abertura do filme "My Neighbor Totoro", assim como a su
 <img src="paleta_cores.png" alt="cores">
 
 
+### Protótipo de alta fidelidade:
+
+Foi realizado a partir da ferramenta (até então nova para nós) Figma. Nesse primeiro protótipo, definimos as cores e a distribuição dos elementos da interface.
+
+[Link do protótipo interativo no Figma](https://www.figma.com/proto/mJ83bN0NlQm2ldvusywL8V/data-lovers-prototype-Studio-Ghibli?embed_host=notion&kind=&node-id=1%3A2&page-id=0%3A1&scaling=scale-down-width&starting-point-node-id=1%3A2&viewport=241%2C48%2C0.06)
+
+
 ### Kiki:
 
-Personagem do estúdio, que nos forneceu inspiração para criar o serviço de busca.
+Personagem do filme "Kiki's Delivery Service" que nos forneceu inspiração para criar o serviço de busca.
 
 <img src="kiki_sem fundo_certa.png" alt="kiki">
 
@@ -75,9 +77,14 @@ Link git hub
 
 ## Sobre as desenvolvedoras:
 
-Jéssika Mirella e Bruna de Paula, ambas estudantes da turma 007 da Laboratoria Brasil, com apenas 3 meses de experiência visam aproveitar ao máximo os objetivos de aprendizagem com o projeto proposto.
+[Jéssika Mirella](https://github.com/JessikaMirella) e [Bruna de Paula](https://github.com/Brulibra), ambas estudantes da turma 007 da [Laboratoria Brasil](https://github.com/Laboratoria), com apenas 3 meses de experiência visam aproveitar ao máximo os objetivos de aprendizagem com o projeto proposto.
+
+<img src="jess.jpg" alt="kiki">
+
+Jéssika Mirella
 
 <img src="brunajpg.jpg" alt="bruna">
-<img src="jess.jpg" alt="kiki">
+
+Bruna de Paula
 
 
