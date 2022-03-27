@@ -3,13 +3,26 @@
 
 ## Resumo do Projeto:
 
-### Fan -page "Viajem ao Estúdio “Ghibli":
+### Fan-page "Viajem ao Estúdio “Ghibli":
 
 
-A fan -page "Viajem ao estúdio Ghibli", é uma página direcionada aos fãs, a fim de oferecer informações e curiosidades sobre suas produções.
+A fan-page "Viajem ao estúdio Ghibli", é uma página direcionada aos fãs, a fim de oferecer informações e curiosidades sobre suas produções.
 Para isso contamos com os "Serviços de buscas da Kiki", uma interface de busca de dados com filtros direcionados às necessidades dos seus usuários. Necessidades estas, descobertas a partir da pesquisa com usuários fornecida.
 
 ![ Em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
+
+# Conteúdos
+
+* [Os usuários e suas histórias...](#os-usuários-e-suas-histórias)
+* [Desenho de interface do usuário](#desenho-de-interface-do-usuário)
+  * [Protótipo de baixa fidelidade](#protótipo-de-baixa-fidelidade)
+  * [Protótipo de alta fidelidade](#protótipo-de-alta-fidelidade)
+  * [A paleta de cores](#a-paleta-de-cores)
+  * [Kiki](#kiki)
+* [A implementação](#a-implementação)
+* [Sobre as desenvolvedoras](#sobre-as-desenvolvedoras)
+
 
 ## Os usuários e suas histórias...
 
@@ -26,35 +39,39 @@ A partir da nossa pesquisa e da mesma fornecida, feita com usuários potenciais,
 
 ## Desenho de interface do usuário:
 
-### Abaixo o protótipo de baixa fidelidade, que contém a ideia inicial de interface:
+### Protótipo de baixa fidelidade:
+
+O protótipo de baixa fidelidade contém, em especial, a ideia inicial da interface, com a distribuição dos elementos.
 
 <img src="prototipo_baixa.jpeg" alt="desenho_simples">
 <img src="prototipo_baixa2.jpeg" alt="desenho_simples">
 
+
 ### Protótipo de alta fidelidade:
 
-Foi realizado a partir da ferramenta (até então nova para nós) Figma. Nesse primeiro protótipo, definimos as cores e a distribuição dos
-elementos da interface.
+Foi realizado a partir da ferramenta (até então nova para nós) Figma. Nesse primeiro protótipo, definimos as cores e a distribuição dos elementos da interface.
 
 
-## A paleta de cores:
+### A paleta de cores:
 
-Tons de azul, seguindo a abertura do filme "My Neighbor Totoro", assim como a sua logo, foi nossa inspiração inicial.
+Tons de azul, seguindo a abertura do filme "My Neighbor Totoro", assim como a sua logo, foi nossa inspiração principal.
 
 <img src="paleta_cores.png" alt="cores">
 
 
 ### Kiki:
 
+Personagem do estúdio, que nos forneceu inspiração para criar o serviço de busca. 
+
 <img src="kiki_sem fundo_certa.png" alt="kiki">
 
-Personagem do estúdio, que nos forneceu inspiração para criar o serviço de busca.
 
 ## A implementação:
 
 Buscamos através de botões de fácil acesso exibir os dados buscados pelo usuário na tela. Também a exibição da porcentagem de filmes
 dirigidos por cada diretor buscado. Dividimos o site em duas páginas para facilitar essa exibição.
 Link git hub
+
 
 ## Sobre as desenvolvedoras:
 
