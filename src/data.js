@@ -33,7 +33,7 @@ export const sortMoviesByyear = (data, orderSelect) => {
 
 export const sortMoviesAz = (data, orderSelect) => {
   const moviesAz = data.films
-  if (orderSelect === "filmsAz") {
+  if (orderSelect === "A-Z") {
     return moviesAz.sort((a,b) => a.title > b.title ? 1: -1);
   }
   else {

@@ -34,7 +34,7 @@ directorsButton.addEventListener("change", () => {
   const directorSelect = directorsButton[directorIndex].value;
   const filtroDiretor = filmesDiretores(data, directorSelect);
   printar(filtroDiretor)
-  document.querySelector(".curiosity").innerHTML = `A porcentagem de filmes dirigidos por ${directorSelect} é de ${(porcMoviesDirector(data, filtroDiretor))}%`
+  document.querySelector(".curiosity").innerHTML = `A porcentagem de filmes dirigidos por <b>${directorSelect}</b> é de <b>${(porcMoviesDirector(data, filtroDiretor))}%</b>`
 });
 
 const scoreButton = document.getElementById("score");
@@ -44,6 +44,7 @@ scoreButton.addEventListener("change", () => {
   const selectedRate = scoreButton[scoreRate].value;
   const orderByScore = (moviesByScore(data, selectedRate))
   printar(orderByScore)
+  document.querySelector(".curiosity").innerHTML = `You selected <b>${selectedRate}</b> score.`
 });
 
 const sortOrder = document.getElementById("year");
@@ -51,6 +52,7 @@ sortOrder.addEventListener("change", (event) => {
   const selectedSort = event.target.value;
   const orderYear = sortMoviesByyear(data, selectedSort);
   printar(orderYear);
+  document.querySelector(".curiosity").innerHTML = `You chose to see from the <b>${selectedSort}</b> movies.`
 });
 
 const sortOrderAz = document.getElementById("films");
@@ -58,5 +60,6 @@ sortOrderAz.addEventListener("change", (event) => {
   const selectedSort = event.target.value;
   const filterAz = sortMoviesAz(data, selectedSort);
   printar(filterAz);
+  document.querySelector(".curiosity").innerHTML = `You chose to see the movies from <b>${selectedSort}</b>.`
 })
 
