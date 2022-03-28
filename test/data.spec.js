@@ -18,7 +18,7 @@ describe('filmesDiretores filtra conforme a vontade do usuario', () => {
 });
 
 describe('moviesByScore ordena filmes pelo score conforme a vontade do usuario', () => {
-  it('deve ordenar filmes por score, de acordo com a selecao', () => {
+  it('deve ordenar filmes por score, do menor para o maior', () => {
     const semOrdenar = {
       films:[
         { rt_score: "100" },
@@ -31,10 +31,24 @@ describe('moviesByScore ordena filmes pelo score conforme a vontade do usuario',
     const ordenarScore = moviesByScore(semOrdenar, selecionada)
     expect(ordenarScore[0].rt_score).toBe('95');
   });
+
+  it('deve ordenar filmes por score, do maior para o menor', () => {
+    const semOrdenar = {
+      films:[
+        { rt_score: "100" },
+        {rt_score: "97"},
+        {rt_score: "96"},
+        { rt_score: "95" },
+      ]
+    }
+    const selecionada = "bigger"
+    const ordenarScore = moviesByScore(semOrdenar, selecionada)
+    expect(ordenarScore[0].rt_score).toBe('100');
+  });
 });
 
 describe('sortMoviesByyear ordena filmes pelo ano conforme a vontade do usuario', () => {
-  it('deve ordenar filmes pelo ano, de acordo com a selecao', () => {
+  it('deve ordenar filmes pelo ano, do mais antigo para o mais novo', () => {
     const semOrdenarAno = { films:[
       { release_date: "1986"},
       {release_date: "1989"},
@@ -45,20 +59,44 @@ describe('sortMoviesByyear ordena filmes pelo ano conforme a vontade do usuario'
     const ordenarAno = sortMoviesByyear(semOrdenarAno, selecionada)
     expect(ordenarAno[0].release_date).toBe('1986');
   });
+
+  it('deve ordenar filmes pelo ano, do mais novo para o mais antigo', () => {
+    const semOrdenarAno = { films:[
+      { release_date: "1986"},
+      {release_date: "1989"},
+      {release_date: "2001"},
+      { release_date: "2014" },
+    ]}
+    const selecionada = "newest"
+    const ordenarAno = sortMoviesByyear(semOrdenarAno, selecionada)
+    expect(ordenarAno[0].release_date).toBe('2014');
+  });
 });
 
 describe(' sortMoviesAz ordena os filmes de a-z de z-a', () => {
-  it('Deve ordenar os títulos dos filmes por ordem alfabética e vice-versa', () => {
+  it('Deve ordenar os títulos dos filmes por ordem alfabética de A-Z', () => {
       const semOrdenação = { films:[
           { title: "Ponyo on the Cliff by the Sea" },
           { title: "My Neighbor Totoro" },
           {title: "Kiki's Delivery Service"},
           {title: "Castle in the Sky"},
       ]}
-      const selecionada = "Z-A"
+      const selecionada = "A-Z"
       const comOrdenação = sortMoviesAz(semOrdenação, selecionada);
-      expect(comOrdenação[0].title).toBe("Ponyo on the Cliff by the Sea");
+      expect(comOrdenação[0].title).toBe("Castle in the Sky");
   })
+
+  it('Deve ordenar os títulos dos filmes por ordem alfabética de Z-A', () => {
+    const semOrdenação = { films:[
+        { title: "Ponyo on the Cliff by the Sea" },
+        { title: "My Neighbor Totoro" },
+        {title: "Kiki's Delivery Service"},
+        {title: "Castle in the Sky"},
+    ]}
+    const selecionada = "Z-A"
+    const comOrdenação = sortMoviesAz(semOrdenação, selecionada);
+    expect(comOrdenação[0].title).toBe("Ponyo on the Cliff by the Sea");
+})
 });
 
 describe('porcMoviesDirector calcula a porcentagem de filmes por diretor, de acordo com a seleçao do usuario ', () => {
