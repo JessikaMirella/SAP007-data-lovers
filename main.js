@@ -8,12 +8,10 @@ function printar(infos) {
 
   document.getElementById("cards").innerHTML = infos.map((cards) =>
     `
-    <div class = "flex-conteiner cards">
-      <div class = "flex-itens poster">
+      <div class = "cards">
+        <h1>  ${cards.title}</h1>
         <img src = " ${cards.poster}" >
-        </div>
-        <div class = "flex-itens infos">
-      <h1>  ${cards.title}</h1>
+        <div class = "infos">
         <p> <b>Description</b> </P>
         <p>  ${cards.description}</p>
         <p> <b>Director</b> ${cards.director}</p>
@@ -55,8 +53,8 @@ sortOrder.addEventListener("change", (event) => {
 
 const sortOrderAz = document.getElementById("films");
 sortOrderAz.addEventListener("change", (event) => {
-  const selectedSort = event.target.value;
-  const filterAz = sortMoviesAz(data, selectedSort);
-  printar(filterAz);
+    const selectedSort = event.target.value;
+    const filterAz = sortMoviesAz(data, selectedSort);
+    printar(filterAz);
 })
 
