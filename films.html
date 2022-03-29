@@ -10,18 +10,23 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Ubuntu:ital,wght@1,300&display=swap');
   </style>
-  </head>
-  <body>
-    <header>
-      <h1>Filmography:</h1>
-      <section class="filter">
-        <select class="films" id="films">
-        <option selected value="none">Filmes</option>
-        <option value="filmsAz">Filmes A-Z</option>
-        <option value="filmsZa">Filmes Z-A</option>
-        </select>
-        <select class="director" id="director">
-        <option selected value="none">Diretores</option>
+</head>
+
+<body>
+  <header>
+    <h1 class="page-title">Filmography:</h1>
+
+    <section class="filter">
+
+
+      <select class="films" id="films">
+        <option selected value="none">Movies</option>
+        <option value="A-Z">Filmes A-Z</option>
+        <option value="Z-A">Filmes Z-A</option>
+      </select>
+
+      <select class="director" id="director">
+        <option selected value="none">Directors</option>
         <option value="Hayao Miyazaki">Hayao Miyazaki</option>
         <option value="Hiromasa Yonebayashi">Hiromasa Yonebayashi</option>
         <option value="Gorō Miyazaki">Gorō Miyazaki</option>
@@ -32,8 +37,9 @@
         <option selected value="none">Release Year</option>
         <option value="oldest">Oldest Release</option>
         <option value="newest">Newest Release</option>
-        </select>
-        <select name="score" id="score">
+      </select>
+
+      <select class="score" id="score">
         <option selected value="none">Rating Score</option>
         <option value="lower">Lower Score</option>
         <option value="bigger">Bigger Score</option>
@@ -41,8 +47,10 @@
     </section>
   </header>
   <div class="curiosity" id="curiosity"></div>
-  <div class="cards" id="cards"></div>
-  <div class="infos"></div>
+  <div class="flex-conteiner cards" id="cards"></div>
+  <div class="flex-itens infos"></div>
+
+
   <script src="main.js" type="module"></script>
   </body>
 </html>
